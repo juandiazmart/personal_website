@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JPDM</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>JPDM</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>JPDM</title>
+      <link>/</link>
+    </image>
+    
+    <item>
+      <title>Example Page 1</title>
+      <link>/courses/example/example1/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/example1/</guid>
+      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Page 2</title>
+      <link>/courses/example/example2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/example2/</guid>
+      <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
+&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>/talk/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>/talk/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modelando la epidemia por el nuevo coronavirus en Oaxaca</title>
+      <link>/post/modelando-la-epidemia-por-el-nuevo-coronavirus-en-oaxaca/</link>
+      <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/post/modelando-la-epidemia-por-el-nuevo-coronavirus-en-oaxaca/</guid>
+      <description>
+
+
+&lt;div id=&#34;introducción&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Introducción&lt;/h1&gt;
+&lt;p&gt;Mucho se ha hablado en redes sociales acerca del éxito (o fracaso) de las distintas medidas de mitigación que han implementado los distintos gobiernos para reducir la “tasa” de infección por el nuevo coronavirus (SARS-CoV-2) en nuestro país. Hasta el 18 de junio (Jul 9) se han confirmado en nuestro país 282,283 casos y 33,526 muertes. Para el estado de Oaxaca, se han confirmado 7,118 casos y 685 muertes.&lt;/p&gt;
+&lt;p&gt;Como ejemplo de lo anterior, hace 3 semanas la Ciudad de México &lt;a href=&#34;https://www.animalpolitico.com/2020/05/cubrebocas-obligatorio-cdmx-evitar-barba-bigote-joyeria-corbata/&#34;&gt;anunció&lt;/a&gt; que el uso de cubrebocas será obligatorio al transitar por la ciudad mientras que el estado de Oaxaca lo &lt;a href=&#34;https://www.jornada.com.mx/ultimas/estados/2020/04/20/obligatorio-uso-de-cubrebocas-en-espacios-publicos-en-oaxaca-8707.html&#34;&gt;implementó&lt;/a&gt; desde el 20 de abril. Asimismo, en días recientes se ha debatido acerca del retraso que existe entre el momento en que se realiza la prueba y el momento en que se publica el resultado de ésta en los cortes diarios que hace el gobierno federal. Lo anterior fue &lt;a href=&#34;https://datos.nexos.com.mx/?p=1351#_ftn2&#34;&gt;analizado&lt;/a&gt; por Jorge Castañeda y Sebastián Garrido para el caso específico de las muertes.&lt;/p&gt;
+&lt;p&gt;¿Por qué es importante reducir la rapidez con la que se transmite el virus de individuo a individuo? Porque existen ciertos grupos de riesgo en los cuales la enfermedad causada por este nuevo coronavirus (COVID-19) se puede complicar. De acuerdo con la más reciente Encuesta Nacional de Nutrición (&lt;a href=&#34;https://ensanut.insp.mx/&#34;&gt;ENSANUT&lt;/a&gt; 2018) realizada conjuntamente entre el Instituto Nacional de Salud Pública (INSP) y el Instituto Nacional de Estadística y Geografía (INEGI), aproximadamente 15.2 millones de mexicanos tienen diagnóstico previo de hipertensión mientras que el 75.2% de la población mayor a 2 años tiene obesidad y sobrepeso. En este sentido, la Secretaría de Salud ha reportado en sus informes técnicos diarios que los 3 principales grupos en riesgo de presentar complicaciones por COVID-19 son: personas mayores a 65 años, personas con Diabetes Mellitus (diagnosticada y no diagnosticada) y personas con hipertensión arterial.&lt;/p&gt;
+&lt;p&gt;Para poder estudiar la posible reducción de infecciones y la aplicación de esta medida de mitigación es necesario introducir el número básico de reproducción &lt;span class=&#34;math inline&#34;&gt;\(R_0\)&lt;/span&gt; Este número mide en promedio cuántas personas son infectadas por una persona con la infección en una población susceptible, de tal manera que este número cuantifica la rapidez con la que se transmite el virus en una población determinada. Dado que &lt;span class=&#34;math inline&#34;&gt;\(R_0\)&lt;/span&gt; puede cambiar en el tiempo debido a la aplicación de distintas medidas (o relajación de éstas), se introduce el número de efectivo de reproducción &lt;span class=&#34;math inline&#34;&gt;\(R_t\)&lt;/span&gt;, teniendo la misma definición que &lt;span class=&#34;math inline&#34;&gt;\(R_0\)&lt;/span&gt; pero ahora a tiempo &lt;span class=&#34;math inline&#34;&gt;\(t\)&lt;/span&gt; En nuestro país, el gobierno federal y los gobiernos estatales han implementado diferentes medidas de mitigación con el objetivo de disminuir &lt;span class=&#34;math inline&#34;&gt;\(R_t\)&lt;/span&gt;, asumiendo que al hacerlo, disminuiría el número de infectados por SARS-CoV-2 y, en consecuencia, un número menor de hospitalizaciones y muertes. Si &lt;span class=&#34;math inline&#34;&gt;\(R_t&amp;lt;1\)&lt;/span&gt; entonces se podría afirmar que la transmisión está bajo control; por lo tanto, se podrían retirar una o varias medidas de mitigación.&lt;/p&gt;
+&lt;p&gt;Para tomar la mejor decisión es necesario contar con la mejor evidencia disponible. Los datos que son presentados diariamente difícilmente representan el estado actual de la epidemia en los distintos estados país; por consiguiente, esto ha complicado la toma de decisiones en el contexto de la actual pandemia. En términos estadísticos, el desfase de muertes reportadas versus la fecha de defunción puede ser ajustado como lo hizo Humberto &lt;a href=&#34;https://datos.nexos.com.mx/?p=1406&#34;&gt;González&lt;/a&gt; y podría ser incluido en cualquier modelo de predicción. De otro modo, este artículo utiliza los datos de hospitalizaciones y muertes hospitalarias en el estado de Oaxaca para predecir las nuevas hospitalizaciones y muertes diarias que ocurrirán en el transcurso del tiempo.&lt;/p&gt;
+&lt;p&gt;Para lograr lograr lo anterior, se utilizó un modelo jerárquico Bayesiano semi-mecanístico&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; el cual utiliza el número de muertes y hospitalizaciones diarias para así estimar el número de pacientes infectados, el número básico y efectivo de reproducción y finalmente el impacto que han tenido diferentes medidas de mitigación en &lt;span class=&#34;math inline&#34;&gt;\(R_t\)&lt;/span&gt;. La &lt;a href=&#34;https://juandiazmart.github.io/blog/&#34;&gt;metodología&lt;/a&gt; sigue lo propuesto por el reporte 13 del &lt;a href=&#34;https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-13-europe-npi-impact/&#34;&gt;Imperial College&lt;/a&gt;. Con respecto al modelo original, se hicieron dos grandes cambios:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Población&lt;/strong&gt;. Se utilizan los datos proporcionados por la Secretaría de Salud (SS) estatal ya que presentan sólo un retraso de 2 días aproximadamente, en comparación con los datos a nivel federal. Adicionalmente, utilizamos todos los hospitalizados que tuvieran sospecha de COVID-19 al momento de ser ingresados y que se les haya realizado la prueba para detectar la enfermedad. Se decidió hacerlo de esta manera ya que todos las personas con sospecha van a hospitales designados COVID-19 en el estado de Oaxaca y representará una cama ocupada. De esta manera, también se controla por el desfase en el resultado de la prueba ya que los sospechosos son incluidos en esta base. De acuerdo con los datos con los que se realizó este trabajo, en promedio el 66% de los sospechosos resultan positivos a SARS-CoV-2, lo cual implica que incluirlos en nuestro análisis no representaría un sesgo importante.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Hospitalizaciones&lt;/strong&gt;. El modelo semi-mecanístico fue modificado para incorporar las nuevas hospitalizaciones que se presentan día con día.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;prediciendo-las-muertes-y-hospitalizaciones-diarias&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Prediciendo las muertes y hospitalizaciones diarias&lt;/h1&gt;
+&lt;p&gt;Antes de describir los resultados, las Figuras &lt;a href=&#34;#fig:sin&#34;&gt;1&lt;/a&gt; y &lt;a href=&#34;#fig:con&#34;&gt;2&lt;/a&gt; muestran el porcentaje de ocupación hospitalaria por tipo de cama (sin y con ventilador) en los distintos municipios del estado de Oaxaca. El estado cuenta hasta el 19 de junio con 443 camas para sospechosos por SARS-CoV-2, de las cuales 337 son camas sin ventilador y 106 con ventilador; tanto la costa como Oaxaca capital han tenido niveles altos de ocupación hospitalaria en los últimos días. Como ejemplo, al menos 3 hospitales en la capital se encuentran con una ocupación del 100% respecto a camas con ventilador. Si bien la ocupación hospitalaria en todo el estado para el 18 de junio es del 55.8% para camas sin ventilador y del 49.1% para aquellas con ventilador, los municipios más grandes son los que tienen el mayor porcentaje de ocupación.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:sin&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/sin-1.png&#34; alt=&#34;Proporción de ocupación hospitalaria de camas sin ventilador. Las etiquetas solamente corresponden a aquellos municipios con una ocupación mayor o igual al 50%.&#34; width=&#34;768&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Proporción de ocupación hospitalaria de camas sin ventilador. Las etiquetas solamente corresponden a aquellos municipios con una ocupación mayor o igual al 50%.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:con&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/con-1.png&#34; alt=&#34; Proporción de ocupación hospitalaria de camas con ventilador. Las etiquetas solamente corresponden a aquellos municipios con una ocupación mayor o igual al 50%.&#34; width=&#34;768&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2:  Proporción de ocupación hospitalaria de camas con ventilador. Las etiquetas solamente corresponden a aquellos municipios con una ocupación mayor o igual al 50%.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;El modelo estima que para el 18 de Junio, el número acumulado de casos con sospecha por infección de SARS-CoV-2 en Oaxaca es de 1,570,676 (95% CrI: 1,033,543 - 2,018,886) (ver Figura &lt;a href=&#34;#fig:infect&#34;&gt;3&lt;/a&gt;). Lo anterior representa al 39.27% (95% CrI: 25.84% - 50.47%) de la población total en Oaxaca, utilizando los datos de CONAPO para 2020 (4.1 millones aproximadamente)&lt;/p&gt;
+&lt;p&gt;Un gran porcentaje de estos 124 mil habitantes son positivos a SARS-CoV-2 (punto 1 anterior). Para llegar a esta estimación, se utiliza el porcentaje de hospitalizados del universo de personas que han sidos estudiados por posible COVID-19 (35%). Adicionalmente, la Figura &lt;a href=&#34;#fig:infect&#34;&gt;3&lt;/a&gt; muestra el histograma de los casos confirmados que el gobierno federal reporta día con día para el estado de Oaxaca. Mientras la predicción de casos sospechosos aumenta, los datos reportados por el gobierno federal muestran un comportamiento irregular debido a lo ya discutido con anterioridad.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:infect&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/infect-1.png&#34; alt=&#34;Nuevas posibles infecciones por SARS-Cov-2. La región azul representa la incertidumbre de nuestra estimación mientras que la línea negra representa la mediana de las simulaciones en el tiempo. El histograma representa los casos confirmados reportados diariamente por la S. Salud federal para el estado de Oaxaca a las 7 pm.&#34; width=&#34;768&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 3: Nuevas posibles infecciones por SARS-Cov-2. La región azul representa la incertidumbre de nuestra estimación mientras que la línea negra representa la mediana de las simulaciones en el tiempo. El histograma representa los casos confirmados reportados diariamente por la S. Salud federal para el estado de Oaxaca a las 7 pm.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Al inicio de la epidemia en México, el número efectivo de reproducción &lt;span class=&#34;math inline&#34;&gt;\(R_t\)&lt;/span&gt; (ver Figura &lt;a href=&#34;#fig:repro&#34;&gt;4&lt;/a&gt;) era de 3.4 (95% CrI: 2.7 - 4.5). Un ejemplo del efecto de una medida de mitigación es el uso de cubrebocas.Después de que el gobierno estatal implementó esta medida el 21 de abril, el número efectivo de reproducción descendió a 0.8 (95% CrI: 0.8 - 1.0). Si bien la diferencia puntual no fue mucha con respecto a cuando se extendió la Jornada Nacional de Sana Distancia, lo que sí cambió fue la incertidumbre alrededor de &lt;span class=&#34;math inline&#34;&gt;\(R_t\)&lt;/span&gt; Esto se debe a que las medidas como el uso de cubrebocas se han observado durante más tiempo en comparación con el tiempo entre el inicio de la epidemia y la primera medida de mitigación. Asimismo, se observa que después del día de la madre el número efectivo de reproducción no ha cambiado considerablemente.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:repro&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/repro-1.png&#34; alt=&#34;Impacto de las medidas de mitigación en el número efectivo de reproducción.&#34; width=&#34;768&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 4: Impacto de las medidas de mitigación en el número efectivo de reproducción.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;La siguiente gráfica muestra las hospitalizaciones diarias estratificadas por resultado de la prueba. Se observa un mayor número de casos sin resultado de prueba en los últimos aunque hay algunos pacientes que fueron hospitalizados y hasta el día de hoy no se sabe el resultado. Recordemos que los últimos dos días tiene un retraso por lo que la caída observada es por lo anterior y no por un descenso en las hospitalizaciones.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:hospi&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/hospi-1.png&#34; alt=&#34;Nuevas hospitalizaciones por sospecha de SARS-CoV-2, observados y predichos. La región azul representa el intervalo de predicción (95%) de las nuevas observaciones. El histograma representa las hospitalizaciones observadas.&#34; width=&#34;768&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 5: Nuevas hospitalizaciones por sospecha de SARS-CoV-2, observados y predichos. La región azul representa el intervalo de predicción (95%) de las nuevas observaciones. El histograma representa las hospitalizaciones observadas.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;La Figura &lt;a href=&#34;#fig:muerte&#34;&gt;6&lt;/a&gt; muestra lo mismo que lo anterior pero ahora parte el número de muertes diarias. El modelo estimó que la probabilidad de morir por haber sido hospitalizado es de 49% (95 CrI: 40% - 60%). El modelo predice que podrán haber hasta 45 muertes diarias por sospecha de SARS-CoV-2 el primero de julio.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:muerte&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/muerte-1.png&#34; alt=&#34;Nuevas muertes por sospecha de COVID-19, observados y predichos.&#34; width=&#34;768&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 6: Nuevas muertes por sospecha de COVID-19, observados y predichos.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-1&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/unnamed-chunk-1-1.png&#34; alt=&#34;Nuevas muertes por sospecha de COVID-19, observados y predichos.&#34; width=&#34;768&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 7: Nuevas muertes por sospecha de COVID-19, observados y predichos.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;y-lo-anterior-qué-implica&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;¿Y lo anterior qué implica?&lt;/h1&gt;
+&lt;p&gt;La medicina basada en la evidencia busca tomar decisiones en salud con información sintetizada de manera sistemática y con un alto grado de nivel científico. Si bien es entendible que parte de la población necesita salir a trabajar, los gobiernos estatales necesitan utilizar información más robusta para realmente dimensionar el tamaño de la epidemia en su localidad. De esta manera, si se cuenta con la mejor evidencia posible, entonces es posible que se tomen las mejores decisiones para que la población no siga sufriendo de los estragos económicos y en salud que ha dejado esta epidemia. En días recientes, el Dr. Hugo López-Gatell &lt;a href=&#34;https://www.milenio.com/estados/valle-mexico-epidemia-acaba-hugo-lopez-gatell&#34;&gt;comentó&lt;/a&gt; que Oaxaca tiene un patrón de descenso muy sostenido, ya que de acuerdo con el modelo del gobierno federal se llegó a la cumbre de contagios en la fecha que se había predicho. Los resultados de este análisis sugieren que no hay evidencia de que la epidemia en el estado de Oaxaca no ha llegado a la cumbre de contagios, al menos con los datos observados hasta el 18 de junio.&lt;/p&gt;
+&lt;p&gt;Este análisis también encontró que casi la mitad de los hospitalizados por sospecha de SARS-CoV-2 fallecen, lo que sugiere que hay una importante cantidad de pacientes que llegan al hospital con un gran deterioro. A nuestro juicio lo anterior debe ser estudiado a mayor profundidad ya que no es claro por qué la gente fallece tanto y tan rápido.&lt;/p&gt;
+&lt;p&gt;Una de las limitaciones de este análisis es la inclusión de todos los hospitalizados (positivos, negativos y sospechosos) ya que podría existir un sesgo. Por ejemplo, existe la posibilidad de que el tiempo de hospitalización hasta el egreso (ya sea alta o defunción) sea diferente entre estos 3 grupos. La hipótesis inicial es que este tiempo es muy similar entre los 3 grupos.&lt;/p&gt;
+&lt;p&gt;Este artículo proporciona evidencia de que el uso del cubrebocas así como otras medidas de mitigación han ayudado a reducir el número efectivo de reproducción en el estado de Oaxaca. Es necesario de seguir insistiendo en mejores datos para mejores decisiones. Ante tanta incertidumbre que genera la epidemia en diferentes desenlaces en salud y económicos, los datos siempre serán una herramienta importante para poder cuantificar ésta.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;@juandiazmart&lt;/code&gt; &lt;code&gt;@BertisD&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Agradezco a la Dirección de Prevención y Promoción de la Salud del estado de Oaxaca por la oportunidad de colaborar en el análisis de los datos.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Es semi-mecanístico ya que utiliza la estructura de los modelos compartimentales pero sin la necesidad de especificar el sistema de ecuaciones diferenciales.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example preprint / working paper</title>
+      <link>/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/preprint/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Three
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/img/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Terms</title>
+      <link>/terms/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/terms/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internal Project</title>
+      <link>/project/internal-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/internal-project/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link>/publication/journal-article/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/journal-article/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>/publication/conference-paper/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/conference-paper/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
