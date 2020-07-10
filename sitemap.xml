@@ -3,182 +3,172 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/courses/example/example1/</loc>
+    <loc>http://juandiazmart.com/courses/example/example1/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/courses/example/</loc>
+    <loc>http://juandiazmart.com/courses/example/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/courses/example/example2/</loc>
+    <loc>http://juandiazmart.com/courses/example/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/example/</loc>
+    <loc>http://juandiazmart.com/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>http://juandiazmart.com/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/</loc>
+    <loc>http://juandiazmart.com/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>http://juandiazmart.com/categories/</loc>
     <lastmod>2020-07-09T22:52:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/covid-19/</loc>
+    <loc>http://juandiazmart.com/tag/covid-19/</loc>
     <lastmod>2020-07-09T22:52:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/modelando-la-epidemia-por-el-nuevo-coronavirus-en-oaxaca/</loc>
+    <loc>http://juandiazmart.com/post/modelando-la-epidemia-por-el-nuevo-coronavirus-en-oaxaca/</loc>
     <lastmod>2020-07-09T22:52:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>http://juandiazmart.com/post/</loc>
     <lastmod>2020-07-09T22:52:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/category/predictive-modeling/</loc>
+    <loc>http://juandiazmart.com/category/predictive-modeling/</loc>
     <lastmod>2020-07-09T22:52:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/r/</loc>
+    <loc>http://juandiazmart.com/tag/r/</loc>
     <lastmod>2020-07-09T22:52:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>http://juandiazmart.com/tags/</loc>
     <lastmod>2020-07-09T22:52:06-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/courses/</loc>
+    <loc>http://juandiazmart.com/courses/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication-type/3/</loc>
+    <loc>http://juandiazmart.com/publication-type/3/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/preprint/</loc>
+    <loc>http://juandiazmart.com/publication/preprint/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/</loc>
+    <loc>http://juandiazmart.com/authors/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/juan-pablo-diaz-martinez/</loc>
+    <loc>http://juandiazmart.com/author/juan-pablo-diaz-martinez/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
+    <loc>http://juandiazmart.com/publication_types/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/</loc>
+    <loc>http://juandiazmart.com/publication/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/source-themes/</loc>
+    <loc>http://juandiazmart.com/tag/source-themes/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/slides/</loc>
+    <loc>http://juandiazmart.com/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/slides/example/</loc>
+    <loc>http://juandiazmart.com/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/terms/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/deep-learning/</loc>
+    <loc>http://juandiazmart.com/tag/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/demo/</loc>
+    <loc>http://juandiazmart.com/tag/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/external-project/</loc>
+    <loc>http://juandiazmart.com/project/external-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/internal-project/</loc>
+    <loc>http://juandiazmart.com/project/internal-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/</loc>
+    <loc>http://juandiazmart.com/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication-type/2/</loc>
+    <loc>http://juandiazmart.com/publication-type/2/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/journal-article/</loc>
+    <loc>http://juandiazmart.com/publication/journal-article/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/robert-ford/</loc>
+    <loc>http://juandiazmart.com/author/robert-ford/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication-type/1/</loc>
+    <loc>http://juandiazmart.com/publication-type/1/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/conference-paper/</loc>
+    <loc>http://juandiazmart.com/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
+    <loc>http://juandiazmart.com/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
   </url>
   
 </urlset>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R | JPDM</title>
-    <link>/tag/r/</link>
-      <atom:link href="/tag/r/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://juandiazmart.com/tag/r/</link>
+      <atom:link href="http://juandiazmart.com/tag/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 09 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>http://juandiazmart.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>R</title>
-      <link>/tag/r/</link>
+      <link>http://juandiazmart.com/tag/r/</link>
     </image>
     
     <item>
       <title>Modelando la epidemia por el nuevo coronavirus en Oaxaca</title>
-      <link>/post/modelando-la-epidemia-por-el-nuevo-coronavirus-en-oaxaca/</link>
+      <link>http://juandiazmart.com/post/modelando-la-epidemia-por-el-nuevo-coronavirus-en-oaxaca/</link>
       <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/post/modelando-la-epidemia-por-el-nuevo-coronavirus-en-oaxaca/</guid>
+      <guid>http://juandiazmart.com/post/modelando-la-epidemia-por-el-nuevo-coronavirus-en-oaxaca/</guid>
       <description>
 
 
@@ -37,13 +37,13 @@
 &lt;h1&gt;Prediciendo las muertes y hospitalizaciones diarias&lt;/h1&gt;
 &lt;p&gt;Antes de describir los resultados, las Figuras &lt;a href=&#34;#fig:sin&#34;&gt;1&lt;/a&gt; y &lt;a href=&#34;#fig:con&#34;&gt;2&lt;/a&gt; muestran el porcentaje de ocupación hospitalaria por tipo de cama (sin y con ventilador) en los distintos municipios del estado de Oaxaca. El estado cuenta hasta el 19 de junio con 443 camas para sospechosos por SARS-CoV-2, de las cuales 337 son camas sin ventilador y 106 con ventilador; tanto la costa como Oaxaca capital han tenido niveles altos de ocupación hospitalaria en los últimos días. Como ejemplo, al menos 3 hospitales en la capital se encuentran con una ocupación del 100% respecto a camas con ventilador. Si bien la ocupación hospitalaria en todo el estado para el 18 de junio es del 55.8% para camas sin ventilador y del 49.1% para aquellas con ventilador, los municipios más grandes son los que tienen el mayor porcentaje de ocupación.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:sin&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/sin-1.png&#34; alt=&#34;Proporción de ocupación hospitalaria de camas sin ventilador. Las etiquetas solamente corresponden a aquellos municipios con una ocupación mayor o igual al 50%.&#34; width=&#34;768&#34; /&gt;
+&lt;img src=&#34;http://juandiazmart.com/post/COVID_Oax/index_files/figure-html/sin-1.png&#34; alt=&#34;Proporción de ocupación hospitalaria de camas sin ventilador. Las etiquetas solamente corresponden a aquellos municipios con una ocupación mayor o igual al 50%.&#34; width=&#34;768&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: Proporción de ocupación hospitalaria de camas sin ventilador. Las etiquetas solamente corresponden a aquellos municipios con una ocupación mayor o igual al 50%.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:con&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/con-1.png&#34; alt=&#34; Proporción de ocupación hospitalaria de camas con ventilador. Las etiquetas solamente corresponden a aquellos municipios con una ocupación mayor o igual al 50%.&#34; width=&#34;768&#34; /&gt;
+&lt;img src=&#34;http://juandiazmart.com/post/COVID_Oax/index_files/figure-html/con-1.png&#34; alt=&#34; Proporción de ocupación hospitalaria de camas con ventilador. Las etiquetas solamente corresponden a aquellos municipios con una ocupación mayor o igual al 50%.&#34; width=&#34;768&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 2:  Proporción de ocupación hospitalaria de camas con ventilador. Las etiquetas solamente corresponden a aquellos municipios con una ocupación mayor o igual al 50%.
 &lt;/p&gt;
@@ -51,34 +51,34 @@ Figure 2:  Proporción de ocupación hospitalaria de camas con ventilador. Las e
 &lt;p&gt;El modelo estima que para el 18 de Junio, el número acumulado de casos con sospecha por infección de SARS-CoV-2 en Oaxaca es de 1,570,676 (95% CrI: 1,033,543 - 2,018,886) (ver Figura &lt;a href=&#34;#fig:infect&#34;&gt;3&lt;/a&gt;). Lo anterior representa al 39.27% (95% CrI: 25.84% - 50.47%) de la población total en Oaxaca, utilizando los datos de CONAPO para 2020 (4.1 millones aproximadamente)&lt;/p&gt;
 &lt;p&gt;Un gran porcentaje de estos 124 mil habitantes son positivos a SARS-CoV-2 (punto 1 anterior). Para llegar a esta estimación, se utiliza el porcentaje de hospitalizados del universo de personas que han sidos estudiados por posible COVID-19 (35%). Adicionalmente, la Figura &lt;a href=&#34;#fig:infect&#34;&gt;3&lt;/a&gt; muestra el histograma de los casos confirmados que el gobierno federal reporta día con día para el estado de Oaxaca. Mientras la predicción de casos sospechosos aumenta, los datos reportados por el gobierno federal muestran un comportamiento irregular debido a lo ya discutido con anterioridad.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:infect&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/infect-1.png&#34; alt=&#34;Nuevas posibles infecciones por SARS-Cov-2. La región azul representa la incertidumbre de nuestra estimación mientras que la línea negra representa la mediana de las simulaciones en el tiempo. El histograma representa los casos confirmados reportados diariamente por la S. Salud federal para el estado de Oaxaca a las 7 pm.&#34; width=&#34;768&#34; /&gt;
+&lt;img src=&#34;http://juandiazmart.com/post/COVID_Oax/index_files/figure-html/infect-1.png&#34; alt=&#34;Nuevas posibles infecciones por SARS-Cov-2. La región azul representa la incertidumbre de nuestra estimación mientras que la línea negra representa la mediana de las simulaciones en el tiempo. El histograma representa los casos confirmados reportados diariamente por la S. Salud federal para el estado de Oaxaca a las 7 pm.&#34; width=&#34;768&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 3: Nuevas posibles infecciones por SARS-Cov-2. La región azul representa la incertidumbre de nuestra estimación mientras que la línea negra representa la mediana de las simulaciones en el tiempo. El histograma representa los casos confirmados reportados diariamente por la S. Salud federal para el estado de Oaxaca a las 7 pm.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Al inicio de la epidemia en México, el número efectivo de reproducción &lt;span class=&#34;math inline&#34;&gt;\(R_t\)&lt;/span&gt; (ver Figura &lt;a href=&#34;#fig:repro&#34;&gt;4&lt;/a&gt;) era de 3.4 (95% CrI: 2.7 - 4.5). Un ejemplo del efecto de una medida de mitigación es el uso de cubrebocas.Después de que el gobierno estatal implementó esta medida el 21 de abril, el número efectivo de reproducción descendió a 0.8 (95% CrI: 0.8 - 1.0). Si bien la diferencia puntual no fue mucha con respecto a cuando se extendió la Jornada Nacional de Sana Distancia, lo que sí cambió fue la incertidumbre alrededor de &lt;span class=&#34;math inline&#34;&gt;\(R_t\)&lt;/span&gt; Esto se debe a que las medidas como el uso de cubrebocas se han observado durante más tiempo en comparación con el tiempo entre el inicio de la epidemia y la primera medida de mitigación. Asimismo, se observa que después del día de la madre el número efectivo de reproducción no ha cambiado considerablemente.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:repro&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/repro-1.png&#34; alt=&#34;Impacto de las medidas de mitigación en el número efectivo de reproducción.&#34; width=&#34;768&#34; /&gt;
+&lt;img src=&#34;http://juandiazmart.com/post/COVID_Oax/index_files/figure-html/repro-1.png&#34; alt=&#34;Impacto de las medidas de mitigación en el número efectivo de reproducción.&#34; width=&#34;768&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 4: Impacto de las medidas de mitigación en el número efectivo de reproducción.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;La siguiente gráfica muestra las hospitalizaciones diarias estratificadas por resultado de la prueba. Se observa un mayor número de casos sin resultado de prueba en los últimos aunque hay algunos pacientes que fueron hospitalizados y hasta el día de hoy no se sabe el resultado. Recordemos que los últimos dos días tiene un retraso por lo que la caída observada es por lo anterior y no por un descenso en las hospitalizaciones.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:hospi&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/hospi-1.png&#34; alt=&#34;Nuevas hospitalizaciones por sospecha de SARS-CoV-2, observados y predichos. La región azul representa el intervalo de predicción (95%) de las nuevas observaciones. El histograma representa las hospitalizaciones observadas.&#34; width=&#34;768&#34; /&gt;
+&lt;img src=&#34;http://juandiazmart.com/post/COVID_Oax/index_files/figure-html/hospi-1.png&#34; alt=&#34;Nuevas hospitalizaciones por sospecha de SARS-CoV-2, observados y predichos. La región azul representa el intervalo de predicción (95%) de las nuevas observaciones. El histograma representa las hospitalizaciones observadas.&#34; width=&#34;768&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 5: Nuevas hospitalizaciones por sospecha de SARS-CoV-2, observados y predichos. La región azul representa el intervalo de predicción (95%) de las nuevas observaciones. El histograma representa las hospitalizaciones observadas.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;La Figura &lt;a href=&#34;#fig:muerte&#34;&gt;6&lt;/a&gt; muestra lo mismo que lo anterior pero ahora parte el número de muertes diarias. El modelo estimó que la probabilidad de morir por haber sido hospitalizado es de 49% (95 CrI: 40% - 60%). El modelo predice que podrán haber hasta 45 muertes diarias por sospecha de SARS-CoV-2 el primero de julio.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:muerte&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/muerte-1.png&#34; alt=&#34;Nuevas muertes por sospecha de COVID-19, observados y predichos.&#34; width=&#34;768&#34; /&gt;
+&lt;img src=&#34;http://juandiazmart.com/post/COVID_Oax/index_files/figure-html/muerte-1.png&#34; alt=&#34;Nuevas muertes por sospecha de COVID-19, observados y predichos.&#34; width=&#34;768&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 6: Nuevas muertes por sospecha de COVID-19, observados y predichos.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-1&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/unnamed-chunk-1-1.png&#34; alt=&#34;Nuevas muertes por sospecha de COVID-19, observados y predichos.&#34; width=&#34;768&#34; /&gt;
+&lt;img src=&#34;http://juandiazmart.com/post/COVID_Oax/index_files/figure-html/unnamed-chunk-1-1.png&#34; alt=&#34;Nuevas muertes por sospecha de COVID-19, observados y predichos.&#34; width=&#34;768&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 7: Nuevas muertes por sospecha de COVID-19, observados y predichos.
 &lt;/p&gt;
