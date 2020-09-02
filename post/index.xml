@@ -2,21 +2,290 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | JPDM</title>
-    <link>https://juandiazmart.com/post/</link>
-      <atom:link href="https://juandiazmart.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 09 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://juandiazmart.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
-      <link>https://juandiazmart.com/post/</link>
+      <link>/post/</link>
     </image>
     
     <item>
+      <title>Pronósticos para egresos y urgencias hospitalarias por entidad federativa</title>
+      <link>/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#introducción&#34;&gt;Introducción&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#gráficas-descriptivas&#34;&gt;Gráficas descriptivas&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#egresos-hospitalarios&#34;&gt;Egresos hospitalarios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#urgencias&#34;&gt;Urgencias&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pronósticos&#34;&gt;Pronósticos&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#pronósticos-egresos-por-entidad-federativa&#34;&gt;Pronósticos egresos por entidad federativa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pronósticos-de-egresos-a-nivel-nacional&#34;&gt;Pronósticos de egresos a nivel nacional&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pronósticos-de-urgencias-por-entidad-federativa&#34;&gt;Pronósticos de urgencias por entidad federativa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pronóstico-de-urgencias-a-nivel-nacional&#34;&gt;Pronóstico de urgencias a nivel nacional&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;introducción&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Introducción&lt;/h1&gt;
+&lt;p&gt;Este documento contiene información adicional a lo reportado por Animal Político en su repotaje titulado &#34;&#34;. Los datos aquí utilizados provienen de la Dirección General de Información en Salud (&lt;a href=&#34;https://www.gob.mx/salud/acciones-y-programas/direccion-general-de-informacion-en-salud-dgis&#34;&gt;DGIS&lt;/a&gt;), utilizando los cubos &lt;a href=&#34;http://www.dgis.salud.gob.mx/contenidos/basesdedatos/BD_Cubos_gobmx.html&#34;&gt;dinámicos&lt;/a&gt; de la misma dirección, los cuales permiten explotar la información del Sistema Nacional de Salud, como por ejemplo egresos hospitalarios y urgencias (información utilizada en el reportaje).&lt;/p&gt;
+&lt;p&gt;La idea central es la siguiente; si contamos con el número de egresos hospitalarios y urgencias para cada estado en el tiempo, es posible utilizar estos datos hasta el momento en que inició la pandemia (febrero de 2020) para pronosticar el número de hospitalizaciones y urgencias que se hubieran esperado si no hubiera ocurrido la llegada de SARS-CoV-2.&lt;/p&gt;
+&lt;p&gt;Para lograr lo anterior, se utilizó un modelo aditivo generalizado (&lt;a href=&#34;https://en.wikipedia.org/wiki/Generalized_additive_model&#34;&gt;GAM&lt;/a&gt; en inglés), el cual permite ajustar la tendencia y la estacionalidad de estos datos. ¿Por qué es importante tomar en cuenta lo anterior? Porque, por ejemplo, existe la posibilidad de que desde antes de que llegara la pandemia a nuestro país, hubiera una tendencia a la baja en hospitalizaciones, y a su vez, existiera la posibilidad de que entre marzo y junio hubieran menos hospitalizaciones con respecto a otros momentos en el año.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Por último, este modelo es jerárquico en el sentido de que cada estado tiene su propia estructura para el ajuste y pronóstico de hospitalizacions y urgencias.&lt;/p&gt;
+&lt;p&gt;Dividimos el análisis en dos secciones: la primera sección muestra gráficas descriptivas del historial de hospitalizaciones y urgencias a partir del 2017.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; La segunda sección muestra los pronósticos tanto estatales como el pronóstico nacional.&lt;/p&gt;
+&lt;p&gt;dolor sit amet, consectetur adipiscing elit. Suspendisse sodales dictum arcu ut gravida. Donec ac leo turpis. Ut sollicitudin, lacus quis rhoncus suscipit, nisl turpis suscipit ex, eu varius lectus nunc vitae dui. Maecenas commodo nisi urna, ut facilisis odio interdum nec. Vivamus nec enim neque. Nulla faucibus diam a turpis varius, vitae rhoncus nunc finibus. Nunc pellentesque quam vel nisi finibus, id mollis ex condimentum. Sed vitae condimentum tortor, sit amet porta lectus. Aliquam erat volutpat. Mauris purus urna, pellentesque eu augue non, maximus vestibulum urna. Donec nisi risus, iaculis elementum nisi at, interdum commodo massa. Integer laoreet, enim non sagittis pretium, augue eros cursus nisi, in feugiat odio neque vitae quam. Donec pretium, nisl quis rutrum consequat, nibh nulla ornare metus, non pretium arcu eros a metus. Nullam blandit rhoncus leo sed porta. Maecenas vitae varius nulla. Sed sagittis vulputate purus, id porttitor felis dapibus et.&lt;/p&gt;
+&lt;div id=&#34;gráficas-descriptivas&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Gráficas descriptivas&lt;/h2&gt;
+&lt;div id=&#34;egresos-hospitalarios&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Egresos hospitalarios&lt;/h3&gt;
+&lt;p&gt;La Figura &lt;a href=&#34;#fig:egresosedos&#34;&gt;1&lt;/a&gt; muestra el número de hospitalizaciones desde enero de 2017. Se observa que a partir de marzo todos los estados tienen una caída con respecto al mismo periodo en años anteriores.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:egresosedos&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/Pron_COVID/index_files/figure-html/egresosedos-1.png&#34; alt=&#34;Hospitalizaciones mensuales por entidad federativa&#34; width=&#34;120%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Hospitalizaciones mensuales por entidad federativa
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Asimismo, la Figura &lt;a href=&#34;#fig:egresoszonas&#34;&gt;2&lt;/a&gt; agrupa lo anterior pero ahora en zonas geográficas.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:egresoszonas&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/Pron_COVID/index_files/figure-html/egresoszonas-1.png&#34; alt=&#34;Hospitalizaciones mensuales por zona geográfica&#34; width=&#34;120%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Hospitalizaciones mensuales por zona geográfica
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;urgencias&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Urgencias&lt;/h3&gt;
+&lt;p&gt;Repitimos el mismo ejercicio pero ahora con los datos de urgencias. La Figura &lt;a href=&#34;#fig:urgenciasedos&#34;&gt;3&lt;/a&gt; muestra lo anterior a partir de enero de 2017. Adicionalmente se muestran estos datos pero ahora por zonas geográficas &lt;a href=&#34;#fig:urgenciaszonas&#34;&gt;4&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:urgenciasedos&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/Pron_COVID/index_files/figure-html/urgenciasedos-1.png&#34; alt=&#34;Urgencias mensuales por entidad federativa&#34; width=&#34;120%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 3: Urgencias mensuales por entidad federativa
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:urgenciaszonas&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/Pron_COVID/index_files/figure-html/urgenciaszonas-1.png&#34; alt=&#34;Urgencias mensuales por zona geográfica&#34; width=&#34;120%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 4: Urgencias mensuales por zona geográfica
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pronósticos&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Pronósticos&lt;/h2&gt;
+&lt;p&gt;Finalmente mostramos los pronósticos a nivel nacional y a nivel estatal, así como el déficit de urgencias y hospitalizaciones nacionales. Éstos toman en cuenta el crecimiento poblacional ya que a mas población es lógico que haya más hospitalizaciones y urgencias en el tiempo, por esto es importante ajustar ésto para que el pronóstico sea correcto.&lt;/p&gt;
+&lt;div id=&#34;pronósticos-egresos-por-entidad-federativa&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Pronósticos egresos por entidad federativa&lt;/h3&gt;
+&lt;p&gt;La Figura &lt;a href=&#34;#fig:egresos-prediction2-plot&#34;&gt;5&lt;/a&gt; muestra el pronóstico a partir de marzo de lo que hubiera ocurrido si no existiera la pandemia por SARS-CoV-2.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:egresos-prediction2-plot&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/Pron_COVID/index_files/figure-html/egresos-prediction2-plot-1.png&#34; alt=&#34;Pronóstico de hospitalizaciones por entidad federativa&#34; width=&#34;120%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 5: Pronóstico de hospitalizaciones por entidad federativa
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pronósticos-de-egresos-a-nivel-nacional&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Pronósticos de egresos a nivel nacional&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;/post/Pron_COVID/index_files/figure-html/egresos-nacional-plot-1.png&#34; width=&#34;120%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;table class=&#34;table&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;caption&gt;
+&lt;span id=&#34;tab:unnamed-chunk-1&#34;&gt;Table 1: &lt;/span&gt;Egresos hospitalarios&lt;br&gt;Marzo-Junio 2020
+&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Tipo de pronóstico&lt;br&gt;(Con 90% de probabilidad)
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Casos&lt;br&gt;pronosticados
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Casos&lt;br&gt; reales
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Diferencia&lt;br&gt;(Casos no atendidos)
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Diferencia&lt;br&gt;(%)
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Casos mínimos:
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+563,946
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+504,120
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+59,826
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+10.6%
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Casos típicos:
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+808,838
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+504,120
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+304,718
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+37.7%
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Casos máximos:
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+1,133,288
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+504,120
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+629,168
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+55.5%
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;A nivel nacional, entre marzo y junio de 2020, el modelo estimó que no se atendieron alrededor de 304,718 pacientes (95% PrI&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;: 59,826 - 629,168).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pronósticos-de-urgencias-por-entidad-federativa&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Pronósticos de urgencias por entidad federativa&lt;/h3&gt;
+&lt;p&gt;La siguiente figura muestra el pronóstico pero ahora para las urgencias. La caída es similar a lo observado en el caso de hospitalizaciones.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:urgencias-prediction2-plot&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/Pron_COVID/index_files/figure-html/urgencias-prediction2-plot-1.png&#34; alt=&#34;Pronóstico de urgencias por entidad federativa&#34; width=&#34;120%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 6: Pronóstico de urgencias por entidad federativa
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pronóstico-de-urgencias-a-nivel-nacional&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Pronóstico de urgencias a nivel nacional&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;/post/Pron_COVID/index_files/figure-html/urgencias-nacional-plot-1.png&#34; width=&#34;120%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;table class=&#34;table&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;caption&gt;
+&lt;span id=&#34;tab:unnamed-chunk-2&#34;&gt;Table 2: &lt;/span&gt;Urgencias hospitalarias&lt;br&gt;Marzo-Junio 2020
+&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Tipo de pronóstico&lt;br&gt;(Con 90% de probabilidad)
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Casos&lt;br&gt;pronosticados
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Casos&lt;br&gt; reales
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Diferencia&lt;br&gt;(Casos no atendidos)
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Diferencia&lt;br&gt;(%)
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Casos mínimos:
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+1,876,896
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+1,466,679
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+410,217
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+21.9%
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Casos típicos:
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+2,745,612
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+1,466,679
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+1,278,934
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+46.6%
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Casos máximos:
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+3,925,394
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+1,466,679
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+2,458,715
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+62.6%
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Finalmente, el modelo estimó que 1,278,934 pacientes no se presentaron en las salas de urgencias a nivel nacional (95% PrI: 410,217 - 2,458,715).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Un ejemplo algo estacional es la temporada de influenza, donde la mayor parte de los casos se presentan entre noviembre y abril de cada año.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Para el modelo utilizamos los datos desde enero del 2015.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Intervalo de predicción&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Modelando la epidemia por el nuevo coronavirus en Oaxaca</title>
-      <link>https://juandiazmart.com/post/modelando-la-epidemia-por-el-nuevo-coronavirus-en-oaxaca/</link>
+      <link>/post/modelando-la-epidemia-por-el-nuevo-coronavirus-en-oaxaca/</link>
       <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://juandiazmart.com/post/modelando-la-epidemia-por-el-nuevo-coronavirus-en-oaxaca/</guid>
+      <guid>/post/modelando-la-epidemia-por-el-nuevo-coronavirus-en-oaxaca/</guid>
       <description>
 
 &lt;div id=&#34;TOC&#34;&gt;
@@ -29,7 +298,7 @@
 
 &lt;div id=&#34;introducción&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Introducción&lt;/h1&gt;
-&lt;p&gt;Mucho se ha hablado en redes sociales acerca del éxito (o fracaso) de las distintas medidas de mitigación que han implementado los distintos gobiernos para reducir la “tasa” de infección por el nuevo coronavirus (SARS-CoV-2) en nuestro país. Hasta el 18 de junio (Jul 11) se han confirmado en nuestro país 295,268 casos y 34,730 muertes. Para el estado de Oaxaca, se han confirmado 7,494 casos y 714 muertes.&lt;/p&gt;
+&lt;p&gt;Mucho se ha hablado en redes sociales acerca del éxito (o fracaso) de las distintas medidas de mitigación que han implementado los distintos gobiernos para reducir la “tasa” de infección por el nuevo coronavirus (SARS-CoV-2) en nuestro país. Hasta el 18 de junio (Sep 1) se han confirmado en nuestro país 606,036 casos y 65,241 muertes. Para el estado de Oaxaca, se han confirmado 13,598 casos y 1,252 muertes.&lt;/p&gt;
 &lt;p&gt;Como ejemplo de lo anterior, hace 3 semanas la Ciudad de México &lt;a href=&#34;https://www.animalpolitico.com/2020/05/cubrebocas-obligatorio-cdmx-evitar-barba-bigote-joyeria-corbata/&#34;&gt;anunció&lt;/a&gt; que el uso de cubrebocas será obligatorio al transitar por la ciudad mientras que el estado de Oaxaca lo &lt;a href=&#34;https://www.jornada.com.mx/ultimas/estados/2020/04/20/obligatorio-uso-de-cubrebocas-en-espacios-publicos-en-oaxaca-8707.html&#34;&gt;implementó&lt;/a&gt; desde el 20 de abril. Asimismo, en días recientes se ha debatido acerca del retraso que existe entre el momento en que se realiza la prueba y el momento en que se publica el resultado de ésta en los cortes diarios que hace el gobierno federal. Lo anterior fue &lt;a href=&#34;https://datos.nexos.com.mx/?p=1351#_ftn2&#34;&gt;analizado&lt;/a&gt; por Jorge Castañeda y Sebastián Garrido para el caso específico de las muertes.&lt;/p&gt;
 &lt;p&gt;¿Por qué es importante reducir la rapidez con la que se transmite el virus de individuo a individuo? Porque existen ciertos grupos de riesgo en los cuales la enfermedad causada por este nuevo coronavirus (COVID-19) se puede complicar. De acuerdo con la más reciente Encuesta Nacional de Nutrición (&lt;a href=&#34;https://ensanut.insp.mx/&#34;&gt;ENSANUT&lt;/a&gt; 2018) realizada conjuntamente entre el Instituto Nacional de Salud Pública (INSP) y el Instituto Nacional de Estadística y Geografía (INEGI), aproximadamente 15.2 millones de mexicanos tienen diagnóstico previo de hipertensión mientras que el 75.2% de la población mayor a 2 años tiene obesidad y sobrepeso. En este sentido, la Secretaría de Salud ha reportado en sus informes técnicos diarios que los 3 principales grupos en riesgo de presentar complicaciones por COVID-19 son: personas mayores a 65 años, personas con Diabetes Mellitus (diagnosticada y no diagnosticada) y personas con hipertensión arterial.&lt;/p&gt;
 &lt;p&gt;Para poder estudiar la posible reducción de infecciones y la aplicación de esta medida de mitigación es necesario introducir el número básico de reproducción &lt;span class=&#34;math inline&#34;&gt;\(R_0\)&lt;/span&gt; Este número mide en promedio cuántas personas son infectadas por una persona con la infección en una población susceptible, de tal manera que este número cuantifica la rapidez con la que se transmite el virus en una población determinada. Dado que &lt;span class=&#34;math inline&#34;&gt;\(R_0\)&lt;/span&gt; puede cambiar en el tiempo debido a la aplicación de distintas medidas (o relajación de éstas), se introduce el número de efectivo de reproducción &lt;span class=&#34;math inline&#34;&gt;\(R_t\)&lt;/span&gt;, teniendo la misma definición que &lt;span class=&#34;math inline&#34;&gt;\(R_0\)&lt;/span&gt; pero ahora a tiempo &lt;span class=&#34;math inline&#34;&gt;\(t\)&lt;/span&gt; En nuestro país, el gobierno federal y los gobiernos estatales han implementado diferentes medidas de mitigación con el objetivo de disminuir &lt;span class=&#34;math inline&#34;&gt;\(R_t\)&lt;/span&gt;, asumiendo que al hacerlo, disminuiría el número de infectados por SARS-CoV-2 y, en consecuencia, un número menor de hospitalizaciones y muertes. Si &lt;span class=&#34;math inline&#34;&gt;\(R_t&amp;lt;1\)&lt;/span&gt; entonces se podría afirmar que la transmisión está bajo control; por lo tanto, se podrían retirar una o varias medidas de mitigación.&lt;/p&gt;
@@ -44,13 +313,13 @@
 &lt;h1&gt;Prediciendo las muertes y hospitalizaciones diarias&lt;/h1&gt;
 &lt;p&gt;Antes de describir los resultados, las Figuras &lt;a href=&#34;#fig:sin&#34;&gt;1&lt;/a&gt; y &lt;a href=&#34;#fig:con&#34;&gt;2&lt;/a&gt; muestran el porcentaje de ocupación hospitalaria por tipo de cama (sin y con ventilador) en los distintos municipios del estado de Oaxaca. El estado cuenta hasta el 19 de junio con 443 camas para sospechosos por SARS-CoV-2, de las cuales 337 son camas sin ventilador y 106 con ventilador; tanto la costa como Oaxaca capital han tenido niveles altos de ocupación hospitalaria en los últimos días. Como ejemplo, al menos 3 hospitales en la capital se encuentran con una ocupación del 100% respecto a camas con ventilador. Si bien la ocupación hospitalaria en todo el estado para el 18 de junio es del 55.8% para camas sin ventilador y del 49.1% para aquellas con ventilador, los municipios más grandes son los que tienen el mayor porcentaje de ocupación.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:sin&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://juandiazmart.com/post/COVID_Oax/index_files/figure-html/sin-1.png&#34; alt=&#34;Proporción de ocupación hospitalaria de camas sin ventilador. Las etiquetas solamente corresponden a aquellos municipios con una ocupación mayor o igual al 50%.&#34; width=&#34;768&#34; /&gt;
+&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/sin-1.png&#34; alt=&#34;Proporción de ocupación hospitalaria de camas sin ventilador. Las etiquetas solamente corresponden a aquellos municipios con una ocupación mayor o igual al 50%.&#34; width=&#34;768&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: Proporción de ocupación hospitalaria de camas sin ventilador. Las etiquetas solamente corresponden a aquellos municipios con una ocupación mayor o igual al 50%.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:con&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://juandiazmart.com/post/COVID_Oax/index_files/figure-html/con-1.png&#34; alt=&#34; Proporción de ocupación hospitalaria de camas con ventilador. Las etiquetas solamente corresponden a aquellos municipios con una ocupación mayor o igual al 50%.&#34; width=&#34;768&#34; /&gt;
+&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/con-1.png&#34; alt=&#34; Proporción de ocupación hospitalaria de camas con ventilador. Las etiquetas solamente corresponden a aquellos municipios con una ocupación mayor o igual al 50%.&#34; width=&#34;768&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 2:  Proporción de ocupación hospitalaria de camas con ventilador. Las etiquetas solamente corresponden a aquellos municipios con una ocupación mayor o igual al 50%.
 &lt;/p&gt;
@@ -58,34 +327,34 @@ Figure 2:  Proporción de ocupación hospitalaria de camas con ventilador. Las e
 &lt;p&gt;El modelo estima que para el 18 de Junio, el número acumulado de casos con sospecha por infección de SARS-CoV-2 en Oaxaca es de 1,570,676 (95% CrI: 1,033,543 - 2,018,886) (ver Figura &lt;a href=&#34;#fig:infect&#34;&gt;3&lt;/a&gt;). Lo anterior representa al 39.27% (95% CrI: 25.84% - 50.47%) de la población total en Oaxaca, utilizando los datos de CONAPO para 2020 (4.1 millones aproximadamente)&lt;/p&gt;
 &lt;p&gt;Un gran porcentaje de estos 124 mil habitantes son positivos a SARS-CoV-2 (punto 1 anterior). Para llegar a esta estimación, se utiliza el porcentaje de hospitalizados del universo de personas que han sidos estudiados por posible COVID-19 (35%). Adicionalmente, la Figura &lt;a href=&#34;#fig:infect&#34;&gt;3&lt;/a&gt; muestra el histograma de los casos confirmados que el gobierno federal reporta día con día para el estado de Oaxaca. Mientras la predicción de casos sospechosos aumenta, los datos reportados por el gobierno federal muestran un comportamiento irregular debido a lo ya discutido con anterioridad.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:infect&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://juandiazmart.com/post/COVID_Oax/index_files/figure-html/infect-1.png&#34; alt=&#34;Nuevas posibles infecciones por SARS-Cov-2. La región azul representa la incertidumbre de nuestra estimación mientras que la línea negra representa la mediana de las simulaciones en el tiempo. El histograma representa los casos confirmados reportados diariamente por la S. Salud federal para el estado de Oaxaca a las 7 pm.&#34; width=&#34;768&#34; /&gt;
+&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/infect-1.png&#34; alt=&#34;Nuevas posibles infecciones por SARS-Cov-2. La región azul representa la incertidumbre de nuestra estimación mientras que la línea negra representa la mediana de las simulaciones en el tiempo. El histograma representa los casos confirmados reportados diariamente por la S. Salud federal para el estado de Oaxaca a las 7 pm.&#34; width=&#34;768&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 3: Nuevas posibles infecciones por SARS-Cov-2. La región azul representa la incertidumbre de nuestra estimación mientras que la línea negra representa la mediana de las simulaciones en el tiempo. El histograma representa los casos confirmados reportados diariamente por la S. Salud federal para el estado de Oaxaca a las 7 pm.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Al inicio de la epidemia en México, el número efectivo de reproducción &lt;span class=&#34;math inline&#34;&gt;\(R_t\)&lt;/span&gt; (ver Figura &lt;a href=&#34;#fig:repro&#34;&gt;4&lt;/a&gt;) era de 3.4 (95% CrI: 2.7 - 4.5). Un ejemplo del efecto de una medida de mitigación es el uso de cubrebocas.Después de que el gobierno estatal implementó esta medida el 21 de abril, el número efectivo de reproducción descendió a 0.8 (95% CrI: 0.8 - 1.0). Si bien la diferencia puntual no fue mucha con respecto a cuando se extendió la Jornada Nacional de Sana Distancia, lo que sí cambió fue la incertidumbre alrededor de &lt;span class=&#34;math inline&#34;&gt;\(R_t\)&lt;/span&gt; Esto se debe a que las medidas como el uso de cubrebocas se han observado durante más tiempo en comparación con el tiempo entre el inicio de la epidemia y la primera medida de mitigación. Asimismo, se observa que después del día de la madre el número efectivo de reproducción no ha cambiado considerablemente.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:repro&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://juandiazmart.com/post/COVID_Oax/index_files/figure-html/repro-1.png&#34; alt=&#34;Impacto de las medidas de mitigación en el número efectivo de reproducción.&#34; width=&#34;768&#34; /&gt;
+&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/repro-1.png&#34; alt=&#34;Impacto de las medidas de mitigación en el número efectivo de reproducción.&#34; width=&#34;768&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 4: Impacto de las medidas de mitigación en el número efectivo de reproducción.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;La siguiente gráfica muestra las hospitalizaciones diarias estratificadas por resultado de la prueba. Se observa un mayor número de casos sin resultado de prueba en los últimos aunque hay algunos pacientes que fueron hospitalizados y hasta el día de hoy no se sabe el resultado. Recordemos que los últimos dos días tiene un retraso por lo que la caída observada es por lo anterior y no por un descenso en las hospitalizaciones.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:hospi&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://juandiazmart.com/post/COVID_Oax/index_files/figure-html/hospi-1.png&#34; alt=&#34;Nuevas hospitalizaciones por sospecha de SARS-CoV-2, observados y predichos. La región azul representa el intervalo de predicción (95%) de las nuevas observaciones. El histograma representa las hospitalizaciones observadas.&#34; width=&#34;768&#34; /&gt;
+&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/hospi-1.png&#34; alt=&#34;Nuevas hospitalizaciones por sospecha de SARS-CoV-2, observados y predichos. La región azul representa el intervalo de predicción (95%) de las nuevas observaciones. El histograma representa las hospitalizaciones observadas.&#34; width=&#34;768&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 5: Nuevas hospitalizaciones por sospecha de SARS-CoV-2, observados y predichos. La región azul representa el intervalo de predicción (95%) de las nuevas observaciones. El histograma representa las hospitalizaciones observadas.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;La Figura &lt;a href=&#34;#fig:muerte&#34;&gt;6&lt;/a&gt; muestra lo mismo que lo anterior pero ahora parte el número de muertes diarias. El modelo estimó que la probabilidad de morir por haber sido hospitalizado es de 49% (95 CrI: 40% - 60%). El modelo predice que podrán haber hasta 45 muertes diarias por sospecha de SARS-CoV-2 el primero de julio.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:muerte&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://juandiazmart.com/post/COVID_Oax/index_files/figure-html/muerte-1.png&#34; alt=&#34;Nuevas muertes por sospecha de COVID-19, observados y predichos.&#34; width=&#34;768&#34; /&gt;
+&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/muerte-1.png&#34; alt=&#34;Nuevas muertes por sospecha de COVID-19, observados y predichos.&#34; width=&#34;768&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 6: Nuevas muertes por sospecha de COVID-19, observados y predichos.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-1&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;https://juandiazmart.com/post/COVID_Oax/index_files/figure-html/unnamed-chunk-1-1.png&#34; alt=&#34;Nuevas muertes por sospecha de COVID-19, observados y predichos.&#34; width=&#34;768&#34; /&gt;
+&lt;img src=&#34;/post/COVID_Oax/index_files/figure-html/unnamed-chunk-1-1.png&#34; alt=&#34;Nuevas muertes por sospecha de COVID-19, observados y predichos.&#34; width=&#34;768&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 7: Nuevas muertes por sospecha de COVID-19, observados y predichos.
 &lt;/p&gt;
@@ -103,7 +372,7 @@ Figure 7: Nuevas muertes por sospecha de COVID-19, observados y predichos.
 &lt;div class=&#34;footnotes&#34;&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Es semi-mecanístico ya que utiliza la estructura de los modelos compartimentales pero sin la necesidad de especificar el sistema de ecuaciones diferenciales.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Es semi-mecanístico ya que utiliza la estructura de los modelos compartimentales pero sin la necesidad de especificar el sistema de ecuaciones diferenciales.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
