@@ -35,13 +35,15 @@
 &lt;li&gt;&lt;a href=&#34;#pronóstico-de-urgencias-a-nivel-nacional&#34;&gt;Pronóstico de urgencias a nivel nacional&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#comentarios-finales&#34;&gt;Comentarios finales&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
 &lt;div id=&#34;introducción&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Introducción&lt;/h1&gt;
 &lt;p&gt;Este documento contiene información adicional a lo reportado por Animal Político en su repotaje titulado &#34;&#34;. Los datos aquí utilizados provienen de la Dirección General de Información en Salud (&lt;a href=&#34;https://www.gob.mx/salud/acciones-y-programas/direccion-general-de-informacion-en-salud-dgis&#34;&gt;DGIS&lt;/a&gt;), utilizando los cubos &lt;a href=&#34;http://www.dgis.salud.gob.mx/contenidos/basesdedatos/BD_Cubos_gobmx.html&#34;&gt;dinámicos&lt;/a&gt; de la misma dirección, los cuales permiten explotar la información del Sistema Nacional de Salud, como por ejemplo egresos hospitalarios y urgencias (información utilizada en el reportaje).&lt;/p&gt;
-&lt;p&gt;La idea central es la siguiente; si contamos con el número de egresos hospitalarios y urgencias para cada estado en el tiempo, es posible utilizar estos datos hasta el momento en que inició la pandemia (febrero de 2020) para pronosticar el número de hospitalizaciones y urgencias que se hubieran esperado si no hubiera ocurrido la llegada de SARS-CoV-2.&lt;/p&gt;
+&lt;p&gt;Se tomaron los datos contenidos en los cubos de enero de 2015 a junio de 2020. De acuerdo a la misma DGIS, estos cubos se encuentran actualizados hasta junio del presente año; es importante recalcar que los datos son preliminares y pueden ser actualizados en cualquier momento. Esta sería una de nuestras limitaciones al calcular el défict, aunque debido a la evidencia de otras fuentes (ver reportaje).&lt;/p&gt;
+&lt;p&gt;La idea central es la siguiente; si contamos con el número de egresos hospitalarios y urgencias para cada estado en el tiempo (datos mensuales), es posible utilizar estos datos hasta el momento en que inició la pandemia (febrero de 2020) para pronosticar el número de hospitalizaciones y urgencias que se hubieran esperado si no hubiera ocurrido la llegada de SARS-CoV-2.&lt;/p&gt;
 &lt;p&gt;Para lograr lo anterior, se utilizó un modelo aditivo generalizado (&lt;a href=&#34;https://en.wikipedia.org/wiki/Generalized_additive_model&#34;&gt;GAM&lt;/a&gt; en inglés), el cual permite ajustar la tendencia y la estacionalidad de estos datos. ¿Por qué es importante tomar en cuenta lo anterior? Porque, por ejemplo, existe la posibilidad de que desde antes de que llegara la pandemia a nuestro país, hubiera una tendencia a la baja en hospitalizaciones, y a su vez, existiera la posibilidad de que entre marzo y junio hubieran menos hospitalizaciones con respecto a otros momentos en el año.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Por último, este modelo es jerárquico en el sentido de que cada estado tiene su propia estructura para el ajuste y pronóstico de hospitalizacions y urgencias.&lt;/p&gt;
 &lt;p&gt;Dividimos el análisis en dos secciones: la primera sección muestra gráficas descriptivas del historial de hospitalizaciones y urgencias a partir del 2017.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; La segunda sección muestra los pronósticos tanto estatales como el pronóstico nacional.&lt;/p&gt;
 &lt;div id=&#34;gráficas-descriptivas&#34; class=&#34;section level2&#34;&gt;
@@ -85,7 +87,7 @@ Figure 4: Urgencias mensuales por zona geográfica
 &lt;p&gt;Finalmente mostramos los pronósticos a nivel nacional y a nivel estatal, así como el déficit de urgencias y hospitalizaciones nacionales. Éstos toman en cuenta el crecimiento poblacional ya que a mas población es lógico que haya más hospitalizaciones y urgencias en el tiempo, por esto es importante ajustar ésto para que el pronóstico sea correcto.&lt;/p&gt;
 &lt;div id=&#34;pronósticos-egresos-por-entidad-federativa&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Pronósticos egresos por entidad federativa&lt;/h3&gt;
-&lt;p&gt;La Figura &lt;a href=&#34;#fig:egresos-prediction2-plot&#34;&gt;5&lt;/a&gt; muestra el pronóstico a partir de marzo de lo que hubiera ocurrido si no existiera la pandemia por SARS-CoV-2.&lt;/p&gt;
+&lt;p&gt;La Figura &lt;a href=&#34;#fig:egresos-prediction2-plot&#34;&gt;5&lt;/a&gt; muestra el pronóstico a partir de marzo de lo que hubiera ocurrido si no existiera la pandemia por SARS-CoV-2. La línea roja marca el mes de febrero de 2020, el cual fue la última fecha para el pronóstico del modelo.&lt;/p&gt;
 &lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:egresos-prediction2-plot&#34;&gt;&lt;/span&gt;
 &lt;img src=&#34;/post/Pron_COVID/index_files/figure-html/egresos-prediction2-plot-1.png&#34; alt=&#34;Pronóstico de hospitalizaciones por entidad federativa&#34; width=&#34;120%&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
@@ -173,7 +175,7 @@ Casos máximos:
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;A nivel nacional, entre marzo y junio de 2020, el modelo estimó que no se atendieron alrededor de 304,718 pacientes (95% PrI&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;: 59,826 - 629,168).&lt;/p&gt;
+&lt;p&gt;A nivel nacional, entre marzo y junio de 2020, el modelo estimó que no se atendieron alrededor de 304,718 pacientes (90% PrI&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;: 59,826 - 629,168). Este déficit se calcula tomando la diferencia entre la mediana del pronóstico (línea negra en los gráficos) y los datos observados entre marzo y junio de 2020. Lo mismo se realizar para calcular el intervalo de predicción (diferencia entre las sombras azules y los datos observados).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;pronósticos-de-urgencias-por-entidad-federativa&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Pronósticos de urgencias por entidad federativa&lt;/h3&gt;
@@ -265,9 +267,13 @@ Casos máximos:
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Finalmente, el modelo estimó que 1,278,934 pacientes no se presentaron en las salas de urgencias a nivel nacional (95% PrI: 410,217 - 2,458,715).&lt;/p&gt;
+&lt;p&gt;Finalmente, el modelo estimó que 1,278,934 pacientes no se presentaron en las salas de urgencias a nivel nacional (90% PrI: 410,217 - 2,458,715).&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;comentarios-finales&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Comentarios finales&lt;/h1&gt;
+&lt;p&gt;La idea en utilizar GAM’s viene del análisis sobre la criminalidad en México &lt;a href=&#34;https://elcri.men/&#34; class=&#34;uri&#34;&gt;https://elcri.men/&lt;/a&gt; de Diego Valle-Jones. Su repositorio puede ser encontrado &lt;a href=&#34;https://github.com/diegovalle/elcrimen-trends&#34;&gt;aquí&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 &lt;hr /&gt;
