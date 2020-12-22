@@ -77,7 +77,7 @@
     </item>
     
     <item>
-      <title>Pronósticos para egresos y urgencias hospitalarias por entidad federativa</title>
+      <title>Pronósticos para egresos y urgencias hospitalarias por entidad federativa (Actualizado)</title>
       <link>/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
       <guid>/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/</guid>
@@ -191,16 +191,16 @@ Diferencia&lt;br&gt;(%)
 Casos mínimos:
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-563,946
+565,310
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-504,120
+628,225
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-59,826
+-62,915
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-10.6%
+-11.1%
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -208,16 +208,16 @@ Casos mínimos:
 Casos típicos:
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-808,838
+811,110
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-504,120
+628,225
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-304,718
+182,884
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-37.7%
+22.5%
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -225,21 +225,21 @@ Casos típicos:
 Casos máximos:
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-1,133,288
+1,129,127
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-504,120
+628,225
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-629,168
+500,902
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-55.5%
+44.4%
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;A nivel nacional, entre marzo y junio de 2020, el modelo estimó que no se atendieron alrededor de 304,718 pacientes (90% PrI&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;: 59,826 - 629,168). Este déficit se calcula tomando la diferencia entre la mediana del pronóstico (línea negra en los gráficos) y los datos observados entre marzo y junio de 2020. Lo mismo se realizar para calcular el intervalo de predicción (diferencia entre las sombras azules y los datos observados).&lt;/p&gt;
+&lt;p&gt;A nivel nacional, entre marzo y junio de 2020, el modelo estimó que no se atendieron alrededor de 182,884 pacientes (90% PrI&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;: -62,915 - 500,902). Este déficit se calcula tomando la diferencia entre la mediana del pronóstico (línea negra en los gráficos) y los datos observados entre marzo y junio de 2020. Lo mismo se realizar para calcular el intervalo de predicción (diferencia entre las sombras azules y los datos observados).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;pronósticos-de-urgencias-por-entidad-federativa&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Pronósticos de urgencias por entidad federativa&lt;/h3&gt;
@@ -283,16 +283,16 @@ Diferencia&lt;br&gt;(%)
 Casos mínimos:
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-1,876,896
+1,883,848
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-1,466,679
+1,642,583
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-410,217
+241,265
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-21.9%
+12.8%
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -300,16 +300,16 @@ Casos mínimos:
 Casos típicos:
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-2,745,612
+2,750,330
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-1,466,679
+1,642,583
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-1,278,934
+1,107,747
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-46.6%
+40.3%
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -317,21 +317,21 @@ Casos típicos:
 Casos máximos:
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-3,925,394
+3,886,558
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-1,466,679
+1,642,583
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-2,458,715
+2,243,975
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-62.6%
+57.7%
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Finalmente, el modelo estimó que 1,278,934 pacientes no se presentaron en las salas de urgencias a nivel nacional (90% PrI: 410,217 - 2,458,715).&lt;/p&gt;
+&lt;p&gt;Finalmente, el modelo estimó que 1,107,747 pacientes no se presentaron en las salas de urgencias a nivel nacional (90% PrI: 241,265 - 2,243,975).&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
