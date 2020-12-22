@@ -241,7 +241,7 @@
   
   <meta property="og:site_name" content="JPDM">
   <meta property="og:url" content="/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/">
-  <meta property="og:title" content="Pronósticos para egresos y urgencias hospitalarias por entidad federativa (Actualizado) | JPDM">
+  <meta property="og:title" content="Pronósticos para egresos y urgencias hospitalarias por entidad federativa (Oct-2020) | JPDM">
   <meta property="og:description" content="Using a generalized additive model under a bayesian framework, this project aims to forecast hospitalizations and emergency visits in Mexico using government`s time-series data (Post is written in spanish)"><meta property="og:image" content="/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/featured.png">
   <meta property="twitter:image" content="/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/featured.png"><meta property="og:locale" content="en-us">
   
@@ -274,7 +274,7 @@
     "@type": "WebPage",
     "@id": "/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/"
   },
-  "headline": "Pronósticos para egresos y urgencias hospitalarias por entidad federativa (Actualizado)",
+  "headline": "Pronósticos para egresos y urgencias hospitalarias por entidad federativa (Oct-2020)",
   
   "image": [
     "/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/featured.png"
@@ -314,7 +314,7 @@
 
 
 
-  <title>Pronósticos para egresos y urgencias hospitalarias por entidad federativa (Actualizado) | JPDM</title>
+  <title>Pronósticos para egresos y urgencias hospitalarias por entidad federativa (Oct-2020) | JPDM</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -544,7 +544,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Pronósticos para egresos y urgencias hospitalarias por entidad federativa (Actualizado)</h1>
+  <h1>Pronósticos para egresos y urgencias hospitalarias por entidad federativa (Oct-2020)</h1>
 
   
 
@@ -639,9 +639,9 @@
 <div id="introducción" class="section level1">
 <h1>Introducción</h1>
 <p>Este documento contiene información adicional a lo reportado por Animal <a href="https://www.animalpolitico.com/2020/09/millones-personas-dejaron-atencion-hospitales-pandemia/">Político</a> .Los datos aquí utilizados provienen de la Dirección General de Información en Salud (<a href="https://www.gob.mx/salud/acciones-y-programas/direccion-general-de-informacion-en-salud-dgis">DGIS</a>), utilizando los cubos <a href="http://www.dgis.salud.gob.mx/contenidos/basesdedatos/BD_Cubos_gobmx.html">dinámicos</a> de la misma dirección, los cuales permiten explotar la información del Sistema Nacional de Salud, como por ejemplo egresos hospitalarios y urgencias (información utilizada en el reportaje).</p>
-<p>Se tomaron los datos contenidos en los cubos de enero de 2015 a junio de 2020. De acuerdo a la misma DGIS, estos cubos se encuentran actualizados hasta junio del presente año; es importante recalcar que los datos son preliminares y pueden ser actualizados en cualquier momento. Esta sería una de nuestras limitaciones al calcular el défict, aunque debido a la evidencia de otras fuentes (ver reportaje).</p>
+<p>Se tomaron los datos contenidos en los cubos de enero de 2015 a octubre de 2020. De acuerdo a la misma DGIS, estos cubos se encuentran actualizados hasta octubre del presente año; es importante recalcar que los datos son preliminares y pueden ser actualizados en cualquier momento. Esta sería una de nuestras limitaciones al calcular el défict, aunque debido a la evidencia de otras fuentes (ver reportaje).</p>
 <p>La idea central es la siguiente; si contamos con el número de egresos hospitalarios y urgencias para cada estado en el tiempo (datos mensuales), es posible utilizar estos datos hasta el momento en que inició la pandemia (febrero de 2020) para pronosticar el número de hospitalizaciones y urgencias que se hubieran esperado si no hubiera ocurrido la llegada de SARS-CoV-2.</p>
-<p>Para lograr lo anterior, se utilizó un modelo aditivo generalizado (<a href="https://en.wikipedia.org/wiki/Generalized_additive_model">GAM</a> en inglés), el cual permite ajustar la tendencia y la estacionalidad de estos datos. ¿Por qué es importante tomar en cuenta lo anterior? Porque, por ejemplo, existe la posibilidad de que desde antes de que llegara la pandemia a nuestro país, hubiera una tendencia a la baja en hospitalizaciones, y a su vez, existiera la posibilidad de que entre marzo y junio hubieran menos hospitalizaciones con respecto a otros momentos en el año.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> Por último, este modelo es jerárquico en el sentido de que cada estado tiene su propia estructura para el ajuste y pronóstico de hospitalizacions y urgencias.</p>
+<p>Para lograr lo anterior, se utilizó un modelo aditivo generalizado (<a href="https://en.wikipedia.org/wiki/Generalized_additive_model">GAM</a> en inglés), el cual permite ajustar la tendencia y la estacionalidad de estos datos. ¿Por qué es importante tomar en cuenta lo anterior? Porque, por ejemplo, existe la posibilidad de que desde antes de que llegara la pandemia a nuestro país, hubiera una tendencia a la baja en hospitalizaciones, y a su vez, existiera la posibilidad de que entre marzo y octubre hubieran menos hospitalizaciones con respecto a otros momentos en el año.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> Por último, este modelo es jerárquico en el sentido de que cada estado tiene su propia estructura para el ajuste y pronóstico de hospitalizacions y urgencias.</p>
 <p>Dividimos el análisis en dos secciones: la primera sección muestra gráficas descriptivas del historial de hospitalizaciones y urgencias a partir del 2017.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> La segunda sección muestra los pronósticos tanto estatales como el pronóstico nacional.</p>
 <div id="gráficas-descriptivas" class="section level2">
 <h2>Gráficas descriptivas</h2>
@@ -697,7 +697,7 @@ Figure 5: Pronóstico de hospitalizaciones por entidad federativa
 <p><img src="/post/Pron_COVID/index_files/figure-html/egresos-nacional-plot-1.png" width="120%" style="display: block; margin: auto;" /></p>
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <caption>
-<span id="tab:unnamed-chunk-1">Table 1: </span>Egresos hospitalarios<br>Marzo-Junio 2020
+<span id="tab:unnamed-chunk-1">Table 1: </span>Egresos hospitalarios<br>Marzo-Octubre 2020
 </caption>
 <thead>
 <tr>
@@ -724,16 +724,16 @@ Diferencia<br>(%)
 Casos mínimos:
 </td>
 <td style="text-align:center;">
-565,310
+1,132,801
 </td>
 <td style="text-align:center;">
-628,225
+1,199,828
 </td>
 <td style="text-align:center;">
--62,915
+-67,027
 </td>
 <td style="text-align:center;">
--11.1%
+-5.9%
 </td>
 </tr>
 <tr>
@@ -741,16 +741,16 @@ Casos mínimos:
 Casos típicos:
 </td>
 <td style="text-align:center;">
-811,110
+1,628,234
 </td>
 <td style="text-align:center;">
-628,225
+1,199,828
 </td>
 <td style="text-align:center;">
-182,884
+428,406
 </td>
 <td style="text-align:center;">
-22.5%
+26.3%
 </td>
 </tr>
 <tr>
@@ -758,21 +758,21 @@ Casos típicos:
 Casos máximos:
 </td>
 <td style="text-align:center;">
-1,129,127
+2,282,514
 </td>
 <td style="text-align:center;">
-628,225
+1,199,828
 </td>
 <td style="text-align:center;">
-500,902
+1,082,686
 </td>
 <td style="text-align:center;">
-44.4%
+47.4%
 </td>
 </tr>
 </tbody>
 </table>
-<p>A nivel nacional, entre marzo y junio de 2020, el modelo estimó que no se atendieron alrededor de 182,884 pacientes (90% PrI<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>: -62,915 - 500,902). Este déficit se calcula tomando la diferencia entre la mediana del pronóstico (línea negra en los gráficos) y los datos observados entre marzo y junio de 2020. Lo mismo se realizar para calcular el intervalo de predicción (diferencia entre las sombras azules y los datos observados).</p>
+<p>A nivel nacional, entre marzo y octubre de 2020, el modelo estimó que no se atendieron alrededor de 428,406 pacientes (90% PrI<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>: -67,027 - 1,082,686). Este déficit se calcula tomando la diferencia entre la mediana del pronóstico (línea negra en los gráficos) y los datos observados entre marzo y octubre de 2020. Lo mismo se realizar para calcular el intervalo de predicción (diferencia entre las sombras azules y los datos observados).</p>
 </div>
 <div id="pronósticos-de-urgencias-por-entidad-federativa" class="section level3">
 <h3>Pronósticos de urgencias por entidad federativa</h3>
@@ -789,7 +789,7 @@ Figure 6: Pronóstico de urgencias por entidad federativa
 <p><img src="/post/Pron_COVID/index_files/figure-html/urgencias-nacional-plot-1.png" width="120%" style="display: block; margin: auto;" /></p>
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <caption>
-<span id="tab:unnamed-chunk-2">Table 2: </span>Urgencias hospitalarias<br>Marzo-Junio 2020
+<span id="tab:unnamed-chunk-2">Table 2: </span>Urgencias hospitalarias<br>Marzo-Octubre 2020
 </caption>
 <thead>
 <tr>
@@ -816,16 +816,16 @@ Diferencia<br>(%)
 Casos mínimos:
 </td>
 <td style="text-align:center;">
-1,883,848
+3,724,919
 </td>
 <td style="text-align:center;">
-1,642,583
+2,976,957
 </td>
 <td style="text-align:center;">
-241,265
+747,962
 </td>
 <td style="text-align:center;">
-12.8%
+20.1%
 </td>
 </tr>
 <tr>
@@ -833,16 +833,16 @@ Casos mínimos:
 Casos típicos:
 </td>
 <td style="text-align:center;">
-2,750,330
+5,479,333
 </td>
 <td style="text-align:center;">
-1,642,583
+2,976,957
 </td>
 <td style="text-align:center;">
-1,107,747
+2,502,376
 </td>
 <td style="text-align:center;">
-40.3%
+45.7%
 </td>
 </tr>
 <tr>
@@ -850,21 +850,21 @@ Casos típicos:
 Casos máximos:
 </td>
 <td style="text-align:center;">
-3,886,558
+7,856,671
 </td>
 <td style="text-align:center;">
-1,642,583
+2,976,957
 </td>
 <td style="text-align:center;">
-2,243,975
+4,879,714
 </td>
 <td style="text-align:center;">
-57.7%
+62.1%
 </td>
 </tr>
 </tbody>
 </table>
-<p>Finalmente, el modelo estimó que 1,107,747 pacientes no se presentaron en las salas de urgencias a nivel nacional (90% PrI: 241,265 - 2,243,975).</p>
+<p>Finalmente, el modelo estimó que 2,502,376 pacientes no se presentaron en las salas de urgencias a nivel nacional (90% PrI: 747,962 - 4,879,714).</p>
 </div>
 </div>
 </div>
@@ -913,7 +913,7 @@ Casos máximos:
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/&amp;text=Pron%c3%b3sticos%20para%20egresos%20y%20urgencias%20hospitalarias%20por%20entidad%20federativa%20%28Actualizado%29" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/&amp;text=Pron%c3%b3sticos%20para%20egresos%20y%20urgencias%20hospitalarias%20por%20entidad%20federativa%20%28Oct-2020%29" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -926,7 +926,7 @@ Casos máximos:
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/&amp;t=Pron%c3%b3sticos%20para%20egresos%20y%20urgencias%20hospitalarias%20por%20entidad%20federativa%20%28Actualizado%29" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/&amp;t=Pron%c3%b3sticos%20para%20egresos%20y%20urgencias%20hospitalarias%20por%20entidad%20federativa%20%28Oct-2020%29" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -939,7 +939,7 @@ Casos máximos:
       
       
       <li>
-        <a href="mailto:?subject=Pron%c3%b3sticos%20para%20egresos%20y%20urgencias%20hospitalarias%20por%20entidad%20federativa%20%28Actualizado%29&amp;body=/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Pron%c3%b3sticos%20para%20egresos%20y%20urgencias%20hospitalarias%20por%20entidad%20federativa%20%28Oct-2020%29&amp;body=/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -952,7 +952,7 @@ Casos máximos:
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/&amp;title=Pron%c3%b3sticos%20para%20egresos%20y%20urgencias%20hospitalarias%20por%20entidad%20federativa%20%28Actualizado%29" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/&amp;title=Pron%c3%b3sticos%20para%20egresos%20y%20urgencias%20hospitalarias%20por%20entidad%20federativa%20%28Oct-2020%29" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -965,7 +965,7 @@ Casos máximos:
       
       
       <li>
-        <a href="whatsapp://send?text=Pron%c3%b3sticos%20para%20egresos%20y%20urgencias%20hospitalarias%20por%20entidad%20federativa%20%28Actualizado%29%20/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Pron%c3%b3sticos%20para%20egresos%20y%20urgencias%20hospitalarias%20por%20entidad%20federativa%20%28Oct-2020%29%20/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -978,7 +978,7 @@ Casos máximos:
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/&amp;title=Pron%c3%b3sticos%20para%20egresos%20y%20urgencias%20hospitalarias%20por%20entidad%20federativa%20%28Actualizado%29" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/&amp;title=Pron%c3%b3sticos%20para%20egresos%20y%20urgencias%20hospitalarias%20por%20entidad%20federativa%20%28Oct-2020%29" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

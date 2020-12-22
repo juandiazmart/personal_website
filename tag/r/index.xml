@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Pronósticos para egresos y urgencias hospitalarias por entidad federativa (Actualizado)</title>
+      <title>Pronósticos para egresos y urgencias hospitalarias por entidad federativa (Oct-2020)</title>
       <link>/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
       <guid>/post/pronosticos-para-egresos-y-urgencias-hospitalarias-por-entidad-federativa/</guid>
@@ -42,9 +42,9 @@
 &lt;div id=&#34;introducción&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Introducción&lt;/h1&gt;
 &lt;p&gt;Este documento contiene información adicional a lo reportado por Animal &lt;a href=&#34;https://www.animalpolitico.com/2020/09/millones-personas-dejaron-atencion-hospitales-pandemia/&#34;&gt;Político&lt;/a&gt; .Los datos aquí utilizados provienen de la Dirección General de Información en Salud (&lt;a href=&#34;https://www.gob.mx/salud/acciones-y-programas/direccion-general-de-informacion-en-salud-dgis&#34;&gt;DGIS&lt;/a&gt;), utilizando los cubos &lt;a href=&#34;http://www.dgis.salud.gob.mx/contenidos/basesdedatos/BD_Cubos_gobmx.html&#34;&gt;dinámicos&lt;/a&gt; de la misma dirección, los cuales permiten explotar la información del Sistema Nacional de Salud, como por ejemplo egresos hospitalarios y urgencias (información utilizada en el reportaje).&lt;/p&gt;
-&lt;p&gt;Se tomaron los datos contenidos en los cubos de enero de 2015 a junio de 2020. De acuerdo a la misma DGIS, estos cubos se encuentran actualizados hasta junio del presente año; es importante recalcar que los datos son preliminares y pueden ser actualizados en cualquier momento. Esta sería una de nuestras limitaciones al calcular el défict, aunque debido a la evidencia de otras fuentes (ver reportaje).&lt;/p&gt;
+&lt;p&gt;Se tomaron los datos contenidos en los cubos de enero de 2015 a octubre de 2020. De acuerdo a la misma DGIS, estos cubos se encuentran actualizados hasta octubre del presente año; es importante recalcar que los datos son preliminares y pueden ser actualizados en cualquier momento. Esta sería una de nuestras limitaciones al calcular el défict, aunque debido a la evidencia de otras fuentes (ver reportaje).&lt;/p&gt;
 &lt;p&gt;La idea central es la siguiente; si contamos con el número de egresos hospitalarios y urgencias para cada estado en el tiempo (datos mensuales), es posible utilizar estos datos hasta el momento en que inició la pandemia (febrero de 2020) para pronosticar el número de hospitalizaciones y urgencias que se hubieran esperado si no hubiera ocurrido la llegada de SARS-CoV-2.&lt;/p&gt;
-&lt;p&gt;Para lograr lo anterior, se utilizó un modelo aditivo generalizado (&lt;a href=&#34;https://en.wikipedia.org/wiki/Generalized_additive_model&#34;&gt;GAM&lt;/a&gt; en inglés), el cual permite ajustar la tendencia y la estacionalidad de estos datos. ¿Por qué es importante tomar en cuenta lo anterior? Porque, por ejemplo, existe la posibilidad de que desde antes de que llegara la pandemia a nuestro país, hubiera una tendencia a la baja en hospitalizaciones, y a su vez, existiera la posibilidad de que entre marzo y junio hubieran menos hospitalizaciones con respecto a otros momentos en el año.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Por último, este modelo es jerárquico en el sentido de que cada estado tiene su propia estructura para el ajuste y pronóstico de hospitalizacions y urgencias.&lt;/p&gt;
+&lt;p&gt;Para lograr lo anterior, se utilizó un modelo aditivo generalizado (&lt;a href=&#34;https://en.wikipedia.org/wiki/Generalized_additive_model&#34;&gt;GAM&lt;/a&gt; en inglés), el cual permite ajustar la tendencia y la estacionalidad de estos datos. ¿Por qué es importante tomar en cuenta lo anterior? Porque, por ejemplo, existe la posibilidad de que desde antes de que llegara la pandemia a nuestro país, hubiera una tendencia a la baja en hospitalizaciones, y a su vez, existiera la posibilidad de que entre marzo y octubre hubieran menos hospitalizaciones con respecto a otros momentos en el año.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Por último, este modelo es jerárquico en el sentido de que cada estado tiene su propia estructura para el ajuste y pronóstico de hospitalizacions y urgencias.&lt;/p&gt;
 &lt;p&gt;Dividimos el análisis en dos secciones: la primera sección muestra gráficas descriptivas del historial de hospitalizaciones y urgencias a partir del 2017.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; La segunda sección muestra los pronósticos tanto estatales como el pronóstico nacional.&lt;/p&gt;
 &lt;div id=&#34;gráficas-descriptivas&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Gráficas descriptivas&lt;/h2&gt;
@@ -100,7 +100,7 @@ Figure 5: Pronóstico de hospitalizaciones por entidad federativa
 &lt;p&gt;&lt;img src=&#34;/post/Pron_COVID/index_files/figure-html/egresos-nacional-plot-1.png&#34; width=&#34;120%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;table class=&#34;table&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
 &lt;caption&gt;
-&lt;span id=&#34;tab:unnamed-chunk-1&#34;&gt;Table 1: &lt;/span&gt;Egresos hospitalarios&lt;br&gt;Marzo-Junio 2020
+&lt;span id=&#34;tab:unnamed-chunk-1&#34;&gt;Table 1: &lt;/span&gt;Egresos hospitalarios&lt;br&gt;Marzo-Octubre 2020
 &lt;/caption&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -127,16 +127,16 @@ Diferencia&lt;br&gt;(%)
 Casos mínimos:
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-565,310
+1,132,801
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-628,225
+1,199,828
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
--62,915
+-67,027
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
--11.1%
+-5.9%
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -144,16 +144,16 @@ Casos mínimos:
 Casos típicos:
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-811,110
+1,628,234
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-628,225
+1,199,828
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-182,884
+428,406
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-22.5%
+26.3%
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -161,21 +161,21 @@ Casos típicos:
 Casos máximos:
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-1,129,127
+2,282,514
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-628,225
+1,199,828
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-500,902
+1,082,686
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-44.4%
+47.4%
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;A nivel nacional, entre marzo y junio de 2020, el modelo estimó que no se atendieron alrededor de 182,884 pacientes (90% PrI&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;: -62,915 - 500,902). Este déficit se calcula tomando la diferencia entre la mediana del pronóstico (línea negra en los gráficos) y los datos observados entre marzo y junio de 2020. Lo mismo se realizar para calcular el intervalo de predicción (diferencia entre las sombras azules y los datos observados).&lt;/p&gt;
+&lt;p&gt;A nivel nacional, entre marzo y octubre de 2020, el modelo estimó que no se atendieron alrededor de 428,406 pacientes (90% PrI&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;: -67,027 - 1,082,686). Este déficit se calcula tomando la diferencia entre la mediana del pronóstico (línea negra en los gráficos) y los datos observados entre marzo y octubre de 2020. Lo mismo se realizar para calcular el intervalo de predicción (diferencia entre las sombras azules y los datos observados).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;pronósticos-de-urgencias-por-entidad-federativa&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Pronósticos de urgencias por entidad federativa&lt;/h3&gt;
@@ -192,7 +192,7 @@ Figure 6: Pronóstico de urgencias por entidad federativa
 &lt;p&gt;&lt;img src=&#34;/post/Pron_COVID/index_files/figure-html/urgencias-nacional-plot-1.png&#34; width=&#34;120%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;table class=&#34;table&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
 &lt;caption&gt;
-&lt;span id=&#34;tab:unnamed-chunk-2&#34;&gt;Table 2: &lt;/span&gt;Urgencias hospitalarias&lt;br&gt;Marzo-Junio 2020
+&lt;span id=&#34;tab:unnamed-chunk-2&#34;&gt;Table 2: &lt;/span&gt;Urgencias hospitalarias&lt;br&gt;Marzo-Octubre 2020
 &lt;/caption&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -219,16 +219,16 @@ Diferencia&lt;br&gt;(%)
 Casos mínimos:
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-1,883,848
+3,724,919
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-1,642,583
+2,976,957
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-241,265
+747,962
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-12.8%
+20.1%
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -236,16 +236,16 @@ Casos mínimos:
 Casos típicos:
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-2,750,330
+5,479,333
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-1,642,583
+2,976,957
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-1,107,747
+2,502,376
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-40.3%
+45.7%
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -253,21 +253,21 @@ Casos típicos:
 Casos máximos:
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-3,886,558
+7,856,671
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-1,642,583
+2,976,957
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-2,243,975
+4,879,714
 &lt;/td&gt;
 &lt;td style=&#34;text-align:center;&#34;&gt;
-57.7%
+62.1%
 &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Finalmente, el modelo estimó que 1,107,747 pacientes no se presentaron en las salas de urgencias a nivel nacional (90% PrI: 241,265 - 2,243,975).&lt;/p&gt;
+&lt;p&gt;Finalmente, el modelo estimó que 2,502,376 pacientes no se presentaron en las salas de urgencias a nivel nacional (90% PrI: 747,962 - 4,879,714).&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
